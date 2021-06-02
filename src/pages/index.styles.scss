@@ -1,4 +1,4 @@
-$color1: #19105c;
+$color1: #01142e;
 $color2: #db0b7d;
 $color3: #a4db00;
 $color4: #250bdb;
@@ -11,8 +11,17 @@ $detailColor: #ff3e55;
   box-sizing: border-box;
 }
 .home__container {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   min-height: 100vh;
   background-color: $color1;
-  background-color: $background;
+  // background-color: $background;
+
+  .home__animation {
+    margin-top: 20rem;
+    margin-left: 5rem;
+    width: 60%;
+  }
 }

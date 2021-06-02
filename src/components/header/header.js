@@ -4,16 +4,12 @@ import "./header.styles.css"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <div className="header__container">
-    <div className="header__title__div">
-      <Link to="/" className="header__link">
-        <h1 className="header__title__h1">
-          milan <br />
-          cirkovic
-        </h1>
-      </Link>
-    </div>
+    <Link to="/" className="logo__link">
+      <h1 className="logo__h1">MILAN</h1>
+      <h1 className="logo__h1">CIRKOVIC</h1>
+    </Link>
   </div>
 )
 

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.nav__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30rem;
+  //   background-color: #5582c2;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+
+  .nav__logo {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    width: fit-content;
+    // background-color: rgba(0, 0, 0, 0.2);
+
+    .logo__link {
+      margin-top: 5rem;
+      color: #ffffff;
+      text-decoration: none;
+      font-family: "Monoton", cursive;
+      font-family: "Montserrat", sans-serif;
+
+      .logo__text {
+        margin-top: 2rem;
+        font-size: 2rem;
+        letter-spacing: 1.5rem;
+        font-weight: 200;
+      }
+
+      &:hover {
+        color: #ff3e55;
+        transition: 0.2s ease-in-out;
+      }
+    }
+  }
+  .menu__links {
+    margin-right: 5rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .menu__link {
+      position: relative;
+      display: inline-block;
+      font-size: 4rem;
+      font-weight: 800;
+      letter-spacing: 0.5rem;
+      color: #ffffff;
+      overflow: hidden;
+      background: linear-gradient(to right, #ff3e55, #ff3e55 50%, white 50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 275ms ease;
+      text-decoration: none;
+      cursor: pointer;
+      margin-top: 2rem;
+
+      &:hover {
+        background-position: 0 100%;
+      }
+    }
+  }
+}

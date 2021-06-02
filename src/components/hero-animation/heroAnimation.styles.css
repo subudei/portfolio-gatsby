@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Teko:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.web__dev__animation__container {
+  width: 100%;
+  height: 60rem;
+  background-color: #01142e;
+  font-family: "Ubuntu", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.web__dev__animation__container .i__drop {
+  position: absolute;
+  left: 13.4rem;
+  bottom: 60rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  border: 0.4rem solid #ffffff;
+  z-index: 3;
+}
+
+.web__dev__animation__container .l__drop {
+  position: absolute;
+  left: 30rem;
+  top: -50rem;
+  height: 50rem;
+  width: 1.6rem;
+  border: 0.5rem solid #ff3e55;
+  border-radius: 0.8rem;
+  z-index: 3;
+}
+
+.web__dev__animation__container .r__dev {
+  position: absolute;
+  left: 51.5rem;
+  top: 30.8rem;
+  color: #ff3e55;
+  font-size: 11rem;
+  font-weight: 600;
+  z-index: 3;
+}
+
+.web__dev__animation__container .hello__div {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.web__dev__animation__container .hello__div .h__letter {
+  position: absolute;
+  bottom: 0;
+  left: 5rem;
+  font-size: 14rem;
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+  line-height: 0.5;
+  opacity: 0;
+  color: #ff3e55;
+}
+
+.web__dev__animation__container .hello__div .i__letter {
+  position: absolute;
+  bottom: 0;
+  left: 13rem;
+  font-size: 10rem;
+  font-family: "Teko", sans-serif;
+  font-weight: 600;
+  line-height: 0.5;
+  color: #ff3e55;
+}
+
+.web__dev__animation__container .hello__div .h__drop {
+  position: absolute;
+  left: 5rem;
+  bottom: 0;
+  bottom: 35rem;
+  height: 9.5rem;
+  width: 8rem;
+  border-radius: 1rem;
+  background-color: #ff3e55;
+}
+
+.web__dev__animation__container .hello__div .h__paravan {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 9.5rem;
+  background-color: #01142e;
+  z-index: 2;
+}
+
+.web__dev__animation__container .hello__div .i__dev {
+  position: absolute;
+  bottom: 0;
+  left: 4.5rem;
+  color: #ff3e55;
+  font-size: 15rem;
+  font-weight: 600;
+  line-height: 0.5;
+  opacity: 0;
+}
+
+.web__dev__animation__container .hello__div .m__dev {
+  position: absolute;
+  bottom: 0;
+  left: 8rem;
+  color: #ff3e55;
+  font-size: 11rem;
+  font-weight: 600;
+  line-height: 0.8;
+}
+
+.web__dev__animation__container .hello__div .coma__letter {
+  position: absolute;
+  bottom: 0;
+  left: 16rem;
+  font-size: 10rem;
+  line-height: 1;
+  font-weight: 600;
+  color: #ff3e55;
+  opacity: 0;
+}
+
+.web__dev__animation__container .hello__div .a__dev {
+  position: absolute;
+  bottom: 0;
+  left: 23rem;
+  color: #ff3e55;
+  font-size: 11rem;
+  font-weight: 600;
+  line-height: 0.8;
+  opacity: 0;
+}
+
+.web__dev__animation__container .hello__div .web__dev {
+  position: absolute;
+  bottom: 0;
+  left: 31rem;
+  color: #ffffff;
+  font-size: 11rem;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 0.8;
+}
+
+.web__dev__animation__container .hello__div .web__paravan {
+  position: absolute;
+  bottom: 0;
+  left: 81rem;
+  background-color: #01142e;
+  width: 22rem;
+  height: 10rem;
+  z-index: 2;
+}
+
+.web__dev__animation__container .developer__div {
+  background-color: #01142e;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.web__dev__animation__container .developer__div .dev__dev {
+  position: absolute;
+  left: 5rem;
+  color: #ffffff;
+  font-size: 11rem;
+  font-weight: 600;
+}
+
+.web__dev__animation__container .developer__div .e__dev {
+  position: absolute;
+  left: 23.5rem;
+  color: #ff3e55;
+  font-size: 11rem;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.web__dev__animation__container .developer__div .l__dev {
+  position: absolute;
+  left: 29.5rem;
+  color: #ff3e55;
+  font-size: 11rem;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.web__dev__animation__container .developer__div .o__dev {
+  position: absolute;
+  left: 32.5rem;
+  color: #ffffff;
+  font-size: 11rem;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.web__dev__animation__container .developer__div .p__dev {
+  position: absolute;
+  left: 39rem;
+  font-size: 11rem;
+  font-weight: 600;
+  color: #ff3e55;
+}
+
+.web__dev__animation__container .developer__div .ee__dev {
+  position: absolute;
+  left: 23.5rem;
+  color: #ff3e55;
+  font-size: 11rem;
+  font-weight: 600;
+  opacity: 0;
+}
+
+.web__dev__animation__container .developer__div .dot__dev {
+  position: absolute;
+  left: 55rem;
+  color: #ff3e55;
+  font-size: 11rem;
+  font-weight: 600;
+  opacity: 0;
+}
+/*# sourceMappingURL=heroAnimation.styles.css.map */

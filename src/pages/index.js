@@ -1,18 +1,20 @@
 import * as React from "react"
-import './index.styles.css'
+import "./index.styles.css"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import HeroAnimation from "../components/hero-animation/heroAnimation"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <div className="home__container">
-    home page
+      <div className="home__animation">
+        <HeroAnimation />
+      </div>
     </div>
-
   </Layout>
   // <StaticImage
   //   src="../assets/programmer.inline.svg"

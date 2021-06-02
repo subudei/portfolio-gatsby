@@ -6,9 +6,17 @@
 }
 
 .home__container {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   min-height: 100vh;
-  background-color: #19105c;
-  background-color: #021d44;
+  background-color: #01142e;
+}
+
+.home__container .home__animation {
+  margin-top: 20rem;
+  margin-left: 5rem;
+  width: 60%;
 }
 /*# sourceMappingURL=index.styles.css.map */
