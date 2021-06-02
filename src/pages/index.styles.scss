@@ -1,0 +1,18 @@
+$color1: #19105c;
+$color2: #db0b7d;
+$color3: #a4db00;
+$color4: #250bdb;
+$color5: #8f0e55;
+$background: #021d44;
+$detailColor: #ff3e55;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.home__container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $color1;
+  background-color: $background;
+}
