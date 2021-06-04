@@ -6,14 +6,18 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import HeroAnimation from "../components/hero-animation/heroAnimation"
+import About from "./about/about"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <div className="home__container">
-      <div className="home__animation">
-        <HeroAnimation />
+    <div className="app__container">
+      <div className="home__container">
+        <div className="home__animation">
+          <HeroAnimation />
+        </div>
       </div>
+      <About />
     </div>
   </Layout>
   // <StaticImage

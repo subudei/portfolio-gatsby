@@ -4,7 +4,7 @@ import "./heroAnimation.styles.css"
 import { gsap } from "gsap"
 
 function HeroAnimation() {
-  const tl = gsap.timeline({ delay: 1, repeat: -1, repeatDelay: 5 })
+  const tl = gsap.timeline({ delay: 1, repeat: 3, repeatDelay: 10 })
   useEffect(() => {
     tl.to(".i__drop", { duration: 0.5, bottom: "29rem", ease: "bounce.out" })
     tl.to(".i__drop", {

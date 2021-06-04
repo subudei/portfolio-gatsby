@@ -1,10 +1,74 @@
+$color1: #01142e;
+$color2: #db0b7d;
+$color3: #a4db00;
+$color4: #250bdb;
+$color5: #8f0e55;
+$background: #021d44;
+$detailColor: #ff3e55;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1vh;
+  font-size: 1vw;
+
+  @media screen and (min-width: 800px) {
+    font-size: 1.1vh;
+  }
+
+  // @media screen and (max-width: 1100px) {
+  //   font-size: 0.8vh;
+  // }
+  // @media screen and (max-width: 800px) {
+  //   font-size: 0.75vh;
+  // }
+  // @media screen and (max-width: 499px) {
+  //   font-size: 0.6vh;
+  // }
+  // @media screen and (max-width: 321px) {
+  //   font-size: 0.5vh;
+  // }
 }
 .layout__container {
   width: 100%;
   min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .contact__icon {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #ff3e55;
+    position: fixed;
+    top: 10vh;
+    right: 5%;
+    z-index: 999;
+
+    .mail__icon {
+      color: #ffffff;
+      font-size: 4rem;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: $color4;
+      transition: 0.4s;
+      .mail__icon {
+        color: #ff3e55;
+      }
+    }
+  }
+}
+@media screen and (min-width: 499px) {
+  .layout__container {
+    .contact__icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }

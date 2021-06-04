@@ -6,10 +6,10 @@ import Seo from "../../components/seo"
 
 function About() {
   return (
-    <Layout>
+    <div className="about__container">
       <Seo title="about" />
-      <div className="about__container">about page</div>
-    </Layout>
+      about page
+    </div>
   )
 }
 

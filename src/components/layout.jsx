@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useEffect } from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -6,20 +6,50 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./layout.styles.css"
 import Nav from "./navbar/nav"
 
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { BiEnvelope } from "@react-icons/all-files/bi/BiEnvelope"
+
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
+  gsap.registerPlugin(ScrollTrigger)
+  // const data = useStaticQuery(graphql`
+  //   query SiteTitleQuery {
+  //     site {
+  //       siteMetadata {
+  //         title
+  //       }
+  //     }
+  //   }
+  // `)
+
+  useEffect(() => {
+    gsap.to(".contact__icon", {
+      scrollTrigger: {
+        trigger: ".contact__icon",
+        start: "top top",
+        toggleActions: "restart none none reset",
+        end: "top 90%",
+        // markers: true,
+      },
+      top: "90vh",
+      opacity: 1,
+      duration: 0.5,
+      ease: "power2.out",
+    })
+  }, [])
 
   return (
     <div className="layout__container">
       <Nav />
+      <div className="contact__icon">
+        <a
+          className="contact__mail"
+          href="mailto:milan_cirkovic@yahoo.com"
+          target="_blank"
+        >
+          <BiEnvelope className="mail__icon" />
+        </a>
+      </div>
       <main>{children}</main>
     </div>
     // <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
