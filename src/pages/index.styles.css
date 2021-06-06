@@ -25,11 +25,11 @@
 .app__container .home__container .home__animation {
   margin-top: 20rem;
   margin-left: 5rem;
-  width: 60%;
+  width: 80%;
 }
 
 @media screen and (max-width: 499px) {
-  .home__container .home__animation {
+  .app__container .home__container .home__animation {
     margin-top: 40rem;
     width: 90%;
   }

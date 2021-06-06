@@ -9,6 +9,8 @@ import Nav from "./navbar/nav"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { BiEnvelope } from "@react-icons/all-files/bi/BiEnvelope"
+import { FaAngleDoubleDown } from "@react-icons/all-files/fa/FaAngleDoubleDown"
+import { CgMouse } from "@react-icons/all-files/cg/CgMouse"
 
 const Layout = ({ children }) => {
   gsap.registerPlugin(ScrollTrigger)
@@ -23,6 +25,13 @@ const Layout = ({ children }) => {
   // `)
 
   useEffect(() => {
+    gsap.to(".scroll__arrows", {
+      duration: 0.7,
+      ease: "power2.out",
+      y: "2vh",
+      repeat: -1,
+      yoyo: true,
+    })
     gsap.to(".contact__icon", {
       scrollTrigger: {
         trigger: ".contact__icon",
@@ -50,6 +59,11 @@ const Layout = ({ children }) => {
           <BiEnvelope className="mail__icon" />
         </a>
       </div>
+      <div className="scroll__icon">
+        <CgMouse className="scroll__mouse" />
+        <FaAngleDoubleDown className="scroll__arrows" />
+      </div>
+
       <main>{children}</main>
     </div>
     // <Header siteTitle={data.site.siteMetadata?.title || `Title`} />

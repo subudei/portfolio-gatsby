@@ -1,20 +1,20 @@
-$color1: #01142e;
-$color2: #db0b7d;
-$color3: #a4db00;
-$color4: #250bdb;
-$color5: #8f0e55;
-$background: #021d44;
-$detailColor: #ff3e55;
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1vw;
+  font-size: 4px;
 
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 700px) {
     font-size: 1.1vh;
   }
+
+  // $color1: #01142e;
+  // $color2: #db0b7d;
+  // $color3: #a4db00;
+  // $color4: #250bdb;
+  // $color5: #8f0e55;
+  // $background: #021d44;
+  // $detailColor: #ff3e55;
 
   // @media screen and (max-width: 1100px) {
   //   font-size: 0.8vh;
@@ -52,15 +52,36 @@ $detailColor: #ff3e55;
 
     .mail__icon {
       color: #ffffff;
-      font-size: 4rem;
+      font-size: 4vh;
     }
     &:hover {
       cursor: pointer;
-      background-color: $color4;
+      background-color: #250bdb;
       transition: 0.4s;
       .mail__icon {
         color: #ff3e55;
       }
+    }
+  }
+  .scroll__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 75vh;
+    left: 45%;
+    width: 10rem;
+    height: 10rem;
+    z-index: 999;
+    .scroll__mouse {
+      // font-family: "Poppins", sans-serif;
+      color: #ffffff;
+      font-size: 5vh;
+    }
+    .scroll__arrows {
+      font-size: 4vh;
+      color: #ff3e55;
     }
   }
 }

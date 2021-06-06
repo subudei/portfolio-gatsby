@@ -116,7 +116,6 @@ function HeroAnimation() {
 
   return (
     <div className="web__dev__animation__container">
-      aniamtion
       <div className="i__drop" />
       <div className="l__drop" />
       <div className="r__dev">r</div>
