@@ -4,6 +4,8 @@ import "./projects.styles.css"
 import { StaticImage } from "gatsby-plugin-image"
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
+import { FaGlobe } from "@react-icons/all-files/fa/FaGlobe"
 
 function Projects() {
   gsap.registerPlugin(ScrollTrigger)
@@ -12,7 +14,7 @@ function Projects() {
     const tlp1 = gsap.timeline({
       scrollTrigger: {
         trigger: ".project__1__img",
-        markers: true,
+        // markers: true,
         start: "top 65%",
         end: "top top",
       },
@@ -33,7 +35,7 @@ function Projects() {
     const tlp2 = gsap.timeline({
       scrollTrigger: {
         trigger: ".project__2__img",
-        markers: true,
+        // markers: true,
         start: "top 65%",
         end: "top top",
       },
@@ -54,7 +56,7 @@ function Projects() {
     const tlp3 = gsap.timeline({
       scrollTrigger: {
         trigger: ".project__3__img",
-        markers: true,
+        // markers: true,
         start: "top 65%",
         end: "top top",
       },
@@ -75,7 +77,7 @@ function Projects() {
     const tlp4 = gsap.timeline({
       scrollTrigger: {
         trigger: ".project__4__img",
-        markers: true,
+        // markers: true,
         start: "top 65%",
         end: "top top",
       },
@@ -112,7 +114,23 @@ function Projects() {
           />
         </div>
         <div className="project__description__1">
-          <h2>project name</h2>
+          <h2 className="pd__title">Weather App</h2>
+          <p className="pd__description">
+            A web app for current weather conditions and three day forecast.
+          </p>
+          <div className="pd__icons">
+            <a href="https://github.com/subudei/weather-app" target="_blank">
+              <FaGithub className="pd__icon" />
+            </a>
+            <a href="https://subudei.github.io/weather-app/" target="_blank">
+              <FaGlobe className="pd__icon" />
+            </a>
+          </div>
+          <div className="pd__techniques">
+            <h4 className="pd__techniqe">React.JS</h4>
+            <h4 className="pd__techniqe">API</h4>
+            <h4 className="pd__techniqe">SASS</h4>
+          </div>
         </div>
       </div>
       <div className="project__container">
@@ -128,7 +146,31 @@ function Projects() {
           />
         </div>
         <div className="project__description__2">
-          <h2>project name</h2>
+          <h2 className="pd__title">Todo App</h2>
+          <p className="pd__description">
+            A simple and awesome app to organize your tasks with very easy to
+            use interface.
+          </p>
+          <div className="pd__icons">
+            <a
+              href="https://github.com/subudei/todo-app-firebase-db"
+              target="_blank"
+            >
+              <FaGithub className="pd__icon" />
+            </a>
+            <a
+              href="https://react-todo-app-723ec.firebaseapp.com/login"
+              target="_blank"
+            >
+              <FaGlobe className="pd__icon" />
+            </a>
+          </div>
+          <div className="pd__techniques">
+            <h4 className="pd__techniqe">React.JS</h4>
+            <h4 className="pd__techniqe">Context API</h4>
+            <h4 className="pd__techniqe">Firebase</h4>
+            <h4 className="pd__techniqe">CSS</h4>
+          </div>
         </div>
       </div>
       <div className="project__container">

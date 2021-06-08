@@ -23,26 +23,27 @@ $detailColor: #ff3e55;
     .ph__title {
       font-family: "Lato", sans-serif;
       color: #ffffff;
-      font-size: clamp(30px, 8vw, 50px);
+      // font-size: clamp(30px, 8vw, 40px);
+      font-size: 5vw;
       letter-spacing: 0.4vw;
       margin: auto;
     }
   }
   .project__container {
     display: flex;
-    width: 40rem;
-    height: 15rem;
-    border: 1px solid black;
+    width: 70rem;
+    height: 30rem;
+    border: 1px solid #ff3e55;
     margin: auto;
     margin-bottom: 5rem;
     position: relative;
-
+    font-family: "Lato", sans-serif;
     .project__1__img {
       position: absolute;
       top: 1rem;
-      left: 0;
-      height: 14rem;
-      width: 25rem;
+      left: -1rem;
+      height: 27rem;
+      width: 48rem;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       display: flex;
@@ -60,71 +61,167 @@ $detailColor: #ff3e55;
       }
     }
     .project__description__1 {
-      width: 20rem;
-      height: 8rem;
+      width: 45rem;
+      height: 23rem;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       position: absolute;
-      left: 21rem;
+      left: 43rem;
       top: 3rem;
 
-      &:hover {
-        transition: 0.2s;
-        scale: 1.1;
+      .pd__title {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        color: #ffffff;
+      }
+      .pd__description {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #ffffff;
+      }
+      .pd__icons {
+        // background-color: aquamarine;
+        width: 60%;
+        margin: auto;
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .pd__icon {
+          // margin: auto;
+          font-size: 2rem;
+          color: $detailColor;
+        }
+      }
+
+      .pd__techniques {
+        margin-top: 4rem;
+        // margin-left: 2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .pd__techniqe {
+          margin-right: 2rem;
+          font-size: 1rem;
+          font-weight: 300;
+          letter-spacing: 0.3rem;
+          color: #ffffff;
+        }
       }
     }
     .project__2__img {
       position: absolute;
       top: 1rem;
-      left: 0;
-      height: 14rem;
-      width: 25rem;
+      left: -1rem;
+      height: 27rem;
+      width: 48rem;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
     }
     .project__description__2 {
-      width: 20rem;
-      height: 8rem;
+      width: 45rem;
+      height: 23rem;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       position: absolute;
-      left: 21rem;
+      left: 43rem;
       top: 3rem;
+
+      .pd__title {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+        color: #ffffff;
+      }
+      .pd__description {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        color: #ffffff;
+      }
+      .pd__icons {
+        // background-color: aquamarine;
+        width: 60%;
+        margin: auto;
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .pd__icon {
+          // margin: auto;
+          font-size: 2rem;
+          color: $detailColor;
+        }
+      }
+
+      .pd__techniques {
+        margin-top: 4rem;
+        // margin-left: 2rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .pd__techniqe {
+          margin-right: 2rem;
+          font-size: 1rem;
+          font-weight: 300;
+          letter-spacing: 0.3rem;
+          color: #ffffff;
+        }
+      }
     }
     .project__3__img {
       position: absolute;
       top: 1rem;
-      left: 0;
-      height: 14rem;
-      width: 25rem;
+      left: -1rem;
+      height: 27rem;
+      width: 48rem;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
     }
     .project__description__3 {
-      width: 20rem;
-      height: 8rem;
+      width: 45rem;
+      height: 23rem;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       position: absolute;
-      left: 21rem;
+      left: 43rem;
       top: 3rem;
     }
     .project__4__img {
       position: absolute;
       top: 1rem;
-      left: 0;
-      height: 14rem;
-      width: 25rem;
+      left: -1rem;
+      height: 27rem;
+      width: 48rem;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
     }
     .project__description__4 {
-      width: 20rem;
-      height: 8rem;
+      width: 45rem;
+      height: 23rem;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       position: absolute;
-      left: 21rem;
+      left: 43rem;
       top: 3rem;
     }
   }

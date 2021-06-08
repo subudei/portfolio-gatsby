@@ -14,13 +14,13 @@ function Nav() {
       </div>
       <div className="menu__links">
         <Link className="menu__link" to="/projects/">
-          projects
+          projects.
         </Link>
         <Link className="menu__link" to="/about/">
-          about
+          about.
         </Link>
         <Link className="menu__link" to="/contact/">
-          contact
+          contact.
         </Link>
       </div>
     </div>

@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
     gsap.to(".contact__icon", {
       scrollTrigger: {
         trigger: ".contact__icon",
-        start: "top top",
+        start: "bottom top",
         toggleActions: "restart none none reset",
         end: "top 90%",
         // markers: true,

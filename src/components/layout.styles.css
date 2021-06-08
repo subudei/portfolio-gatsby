@@ -3,12 +3,12 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 8px;
+  font-size: 4px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
   * {
-    font-size: 16px;
+    font-size: 8px;
   }
 }
 
@@ -36,19 +36,19 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 10rem;
-  height: 10rem;
+  width: 33px;
+  height: 33px;
   border-radius: 50%;
   background-color: #ff3e55;
   position: fixed;
-  top: 10vh;
+  top: 3vh;
   right: 5%;
   z-index: 999;
 }
 
 .layout__container .contact__icon .mail__icon {
   color: #ffffff;
-  font-size: 4vh;
+  font-size: 25px;
 }
 
 .layout__container .contact__icon:hover {
@@ -92,12 +92,5 @@
 .layout__container .scroll__icon .scroll__arrows {
   font-size: 4vh;
   color: #ff3e55;
-}
-
-@media screen and (min-width: 499px) {
-  .layout__container .contact__icon {
-    width: 40px;
-    height: 40px;
-  }
 }
 /*# sourceMappingURL=layout.styles.css.map */

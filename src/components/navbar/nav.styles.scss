@@ -6,39 +6,42 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 20rem;
+  height: 30rem;
+  overflow: hidden;
   // background-color: #5582c2;
   z-index: 999;
   display: flex;
   justify-content: space-between;
 
   .nav__logo {
-    margin-left: 2rem;
-    margin-top: 3rem;
+    margin-left: 10%;
+    margin-top: 7rem;
     width: fit-content;
 
     .logo__link {
-      margin-top: 2rem;
+      margin-top: 3rem;
+
       color: #ffffff;
       text-decoration: none;
       font-family: "Monoton", cursive;
       font-family: "Montserrat", sans-serif;
 
       .logo__text {
-        margin-top: 1.2rem;
-        font-size: 1rem;
-        letter-spacing: 0.5rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        letter-spacing: 1rem;
         font-weight: 200;
       }
 
       &:hover {
+        color: #ffffff;
         color: #ff3e55;
         transition: 0.2s ease-in-out;
       }
     }
   }
   .menu__links {
-    margin-right: 2rem;
+    margin-right: 3rem;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -48,9 +51,9 @@
     .menu__link {
       position: relative;
       display: inline-block;
-      font-size: 1rem;
+      font-size: 2rem;
       font-weight: 800;
-      letter-spacing: 0.2rem;
+      letter-spacing: 0.3rem;
       color: #ffffff;
       overflow: hidden;
       background: linear-gradient(to right, #ff3e55, #ff3e55 50%, white 50%);
@@ -70,11 +73,27 @@
     }
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   .nav__container {
-    height: 40rem;
+    height: 45rem;
     .nav__logo {
-      margin-top: 13rem;
+      margin-top: 10rem;
+      // margin-left: 10%;
+      .logo__link {
+        .logo__text {
+          margin-top: 3rem;
+          font-size: 4rem;
+          letter-spacing: 2.2rem;
+        }
+      }
+    }
+
+    .menu__links {
+      margin-top: 9rem;
+      .menu__link {
+        font-size: 4.5rem;
+        letter-spacing: 0.5rem;
+      }
     }
   }
 }
@@ -84,15 +103,17 @@
     .nav__logo {
       .logo__link {
         .logo__text {
-          font-size: 3rem;
+          font-size: 3.5rem;
           letter-spacing: 1.8rem;
         }
       }
     }
 
     .menu__links {
+      margin-top: 9rem;
       .menu__link {
         font-size: 4rem;
+        letter-spacing: 0.3rem;
       }
     }
   }

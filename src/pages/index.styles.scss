@@ -18,30 +18,22 @@ $detailColor: #ff3e55;
     width: 100%;
     min-height: 100vh;
     background-color: $color1;
+    overflow-x: hidden;
     // background-color: $background;
 
     .home__animation {
-      margin-top: 20rem;
-      margin-left: 5rem;
+      margin-top: 7rem;
+      margin-left: 4rem;
       width: 80%;
     }
   }
 }
-
-// @media screen and (max-width: 321px) {
-//   .home__container {
-//     .home__animation {
-//       margin-top: 40rem;
-//       width: 90%;
-//     }
-//   }
-// }
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 1000px) {
   .app__container {
     .home__container {
       .home__animation {
         margin-top: 40rem;
-        width: 90%;
+        width: 100%;
       }
     }
   }
