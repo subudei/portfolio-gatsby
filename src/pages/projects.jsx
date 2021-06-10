@@ -119,10 +119,18 @@ function Projects() {
             A web app for current weather conditions and three day forecast.
           </p>
           <div className="pd__icons">
-            <a href="https://github.com/subudei/weather-app" target="_blank">
+            <a
+              href="https://github.com/subudei/weather-app"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub className="pd__icon" />
             </a>
-            <a href="https://subudei.github.io/weather-app/" target="_blank">
+            <a
+              href="https://subudei.github.io/weather-app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGlobe className="pd__icon" />
             </a>
           </div>
@@ -155,12 +163,14 @@ function Projects() {
             <a
               href="https://github.com/subudei/todo-app-firebase-db"
               target="_blank"
+              rel="noreferrer"
             >
               <FaGithub className="pd__icon" />
             </a>
             <a
               href="https://react-todo-app-723ec.firebaseapp.com/login"
               target="_blank"
+              rel="noreferrer"
             >
               <FaGlobe className="pd__icon" />
             </a>
@@ -186,7 +196,34 @@ function Projects() {
           />
         </div>
         <div className="project__description__3">
-          <h2>project name</h2>
+          <h2 className="pd__title">E-commerce website</h2>
+          <p className="pd__description">
+            Online shop which allows consumers to directly buy sport gear from a
+            seller over the Internet using a web browser
+          </p>
+          <div className="pd__icons">
+            <a
+              href="https://github.com/subudei/react-ecommerce-03-2021"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className="pd__icon" />
+            </a>
+            <a
+              href="https://ecommerce-2021-b67ff.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGlobe className="pd__icon" />
+            </a>
+          </div>
+          <div className="pd__techniques">
+            <h4 className="pd__techniqe">React.JS</h4>
+            <h4 className="pd__techniqe">Redux</h4>
+            <h4 className="pd__techniqe">Firebase</h4>
+            <h4 className="pd__techniqe">SASS</h4>
+            <h4 className="pd__techniqe">Stripe</h4>
+          </div>
         </div>
       </div>
       <div className="project__container">
@@ -202,7 +239,33 @@ function Projects() {
           />
         </div>
         <div className="project__description__4">
-          <h2>project name</h2>
+          <h2 className="pd__title">Massage Room</h2>
+          <p className="pd__description">
+            Web page for local massage studio to advertise their massage therapy
+            services.
+          </p>
+          <div className="pd__icons">
+            <a
+              href="https://github.com/subudei/massage-page"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className="pd__icon" />
+            </a>
+            <a
+              href="https://xenodochial-williams-6de26a.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGlobe className="pd__icon" />
+            </a>
+          </div>
+          <div className="pd__techniques">
+            <h4 className="pd__techniqe">React.JS</h4>
+            <h4 className="pd__techniqe">Gatsby</h4>
+            <h4 className="pd__techniqe">SASS</h4>
+            <h4 className="pd__techniqe">GSAP</h4>
+          </div>
         </div>
       </div>
     </div>

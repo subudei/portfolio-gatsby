@@ -53,12 +53,12 @@ $detailColor: #ff3e55;
       .pr__image {
         height: 100%;
       }
-      &:hover {
-        // box-shadow: 5px 5px 15px 5px $color4;
-        opacity: 1;
-        transition: 0.2s;
-        opacity: 0.8;
-      }
+      // &:hover {
+      //   // box-shadow: 5px 5px 15px 5px $color4;
+      //   opacity: 1;
+      //   transition: 0.2s;
+      //   opacity: 0.8;
+      // }
     }
     .project__description__1 {
       width: 45rem;
@@ -73,17 +73,16 @@ $detailColor: #ff3e55;
         margin-left: 2rem;
         margin-top: 2rem;
         font-size: 2rem;
+        font-weight: 400;
         letter-spacing: 0.3rem;
         color: #ffffff;
       }
       .pd__description {
-        margin-left: 2rem;
-        margin-top: 2rem;
+        margin: 2rem;
         font-size: 1.5rem;
         color: #ffffff;
       }
       .pd__icons {
-        // background-color: aquamarine;
         width: 60%;
         margin: auto;
         margin-top: 4rem;
@@ -92,7 +91,6 @@ $detailColor: #ff3e55;
         justify-content: space-evenly;
 
         .pd__icon {
-          // margin: auto;
           font-size: 2rem;
           color: $detailColor;
         }
@@ -100,7 +98,6 @@ $detailColor: #ff3e55;
 
       .pd__techniques {
         margin-top: 4rem;
-        // margin-left: 2rem;
         width: 100%;
         display: flex;
         align-items: center;
@@ -140,17 +137,16 @@ $detailColor: #ff3e55;
         margin-left: 2rem;
         margin-top: 2rem;
         font-size: 2rem;
+        font-weight: 400;
         letter-spacing: 0.3rem;
         color: #ffffff;
       }
       .pd__description {
-        margin-left: 2rem;
-        margin-top: 2rem;
+        margin: 2rem;
         font-size: 1.5rem;
         color: #ffffff;
       }
       .pd__icons {
-        // background-color: aquamarine;
         width: 60%;
         margin: auto;
         margin-top: 4rem;
@@ -159,7 +155,6 @@ $detailColor: #ff3e55;
         justify-content: space-evenly;
 
         .pd__icon {
-          // margin: auto;
           font-size: 2rem;
           color: $detailColor;
         }
@@ -167,7 +162,6 @@ $detailColor: #ff3e55;
 
       .pd__techniques {
         margin-top: 4rem;
-        // margin-left: 2rem;
         width: 100%;
         display: flex;
         align-items: center;
@@ -202,6 +196,48 @@ $detailColor: #ff3e55;
       position: absolute;
       left: 43rem;
       top: 3rem;
+      .pd__title {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 0.3rem;
+        color: #ffffff;
+      }
+      .pd__description {
+        margin: 2rem;
+        font-size: 1.5rem;
+        color: #ffffff;
+      }
+      .pd__icons {
+        width: 60%;
+        margin: auto;
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .pd__icon {
+          font-size: 2rem;
+          color: $detailColor;
+        }
+      }
+
+      .pd__techniques {
+        margin-top: 4rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .pd__techniqe {
+          margin-right: 2rem;
+          font-size: 1rem;
+          font-weight: 300;
+          letter-spacing: 0.3rem;
+          color: #ffffff;
+        }
+      }
     }
     .project__4__img {
       position: absolute;
@@ -223,6 +259,342 @@ $detailColor: #ff3e55;
       position: absolute;
       left: 43rem;
       top: 3rem;
+      .pd__title {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 0.3rem;
+        color: #ffffff;
+      }
+      .pd__description {
+        margin: 2rem;
+        font-size: 1.5rem;
+        color: #ffffff;
+      }
+      .pd__icons {
+        width: 60%;
+        margin: auto;
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .pd__icon {
+          font-size: 2rem;
+          color: $detailColor;
+        }
+      }
+
+      .pd__techniques {
+        margin-top: 4rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .pd__techniqe {
+          margin-right: 2rem;
+          font-size: 1rem;
+          font-weight: 300;
+          letter-spacing: 0.3rem;
+          color: #ffffff;
+        }
+      }
     }
   }
 }
+@media screen and (max-width: 999px) {
+  .projects__container {
+    .project__container {
+      width: 60%;
+      height: 30vw;
+      margin-bottom: 10vw;
+
+      .project__1__img {
+        width: 70%;
+        height: auto;
+      }
+
+      .project__description__1 {
+        width: 60%;
+        height: 25vw;
+        left: 45%;
+        top: 15%;
+
+        .pd__title {
+          font-size: 4rem;
+        }
+        .pd__description {
+          font-size: 3.5rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 5rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .projects__container {
+    .project__container {
+      width: 80%;
+      height: 50rem;
+      margin-bottom: 20rem;
+
+      .project__1__img {
+        width: 70%;
+        height: auto;
+      }
+
+      .project__description__1 {
+        width: 65%;
+        height: 40rem;
+        left: 35%;
+        top: 25%;
+
+        .pd__title {
+          font-size: 4rem;
+        }
+        .pd__description {
+          font-size: 3rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 6rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 3rem;
+          }
+        }
+      }
+
+      .project__2__img {
+        width: 70%;
+        height: auto;
+      }
+
+      .project__description__2 {
+        width: 65%;
+        height: 40rem;
+        left: 35%;
+        top: 25%;
+
+        .pd__title {
+          font-size: 4rem;
+        }
+        .pd__description {
+          font-size: 3rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 6rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 3rem;
+          }
+        }
+      }
+
+      .project__3__img {
+        width: 70%;
+        height: auto;
+      }
+
+      .project__description__3 {
+        width: 65%;
+        height: 40rem;
+        left: 35%;
+        top: 25%;
+
+        .pd__title {
+          font-size: 4rem;
+        }
+        .pd__description {
+          font-size: 3rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 6rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 3rem;
+          }
+        }
+      }
+
+      .project__4__img {
+        width: 70%;
+        height: auto;
+      }
+
+      .project__description__4 {
+        width: 65%;
+        height: 40rem;
+        left: 35%;
+        top: 25%;
+
+        .pd__title {
+          font-size: 4rem;
+        }
+        .pd__description {
+          font-size: 3rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 6rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects__container {
+    .project__container {
+      width: 90%;
+      height: 40rem;
+      margin-bottom: 12rem;
+
+      .project__1__img {
+        width: 75%;
+        height: auto;
+      }
+
+      .project__description__1 {
+        width: 80%;
+        height: 33rem;
+        left: 20%;
+        top: 35%;
+        .pd__title {
+          font-size: 3rem;
+        }
+        .pd__description {
+          font-size: 2.5rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 4rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      .project__2__img {
+        width: 75%;
+        height: auto;
+      }
+
+      .project__description__2 {
+        width: 80%;
+        height: 33rem;
+        left: 20%;
+        top: 35%;
+        .pd__title {
+          font-size: 3rem;
+        }
+        .pd__description {
+          font-size: 2.5rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 4rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      .project__3__img {
+        width: 75%;
+        height: auto;
+      }
+
+      .project__description__3 {
+        width: 80%;
+        height: 33rem;
+        left: 20%;
+        top: 35%;
+        .pd__title {
+          font-size: 3rem;
+        }
+        .pd__description {
+          font-size: 2.5rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 4rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 2rem;
+          }
+        }
+      }
+
+      .project__4__img {
+        width: 75%;
+        height: auto;
+      }
+
+      .project__description__4 {
+        width: 80%;
+        height: 33rem;
+        left: 20%;
+        top: 35%;
+        .pd__title {
+          font-size: 3rem;
+        }
+        .pd__description {
+          font-size: 2.5rem;
+        }
+        .pd__icons {
+          .pd__icon {
+            font-size: 4rem;
+          }
+        }
+        .pd__techniques {
+          .pd__techniqe {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+// @media screen and (max-width: 1000px) {
+//   .projects__container {
+//     .project__container {
+//       width: 70%;
+//       height: 40rem;
+//       margin-bottom: 12rem;
+//     }
+//   }
+// }

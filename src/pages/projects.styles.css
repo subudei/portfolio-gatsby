@@ -58,13 +58,6 @@
   height: 100%;
 }
 
-.projects__container .project__container .project__1__img:hover {
-  opacity: 1;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  opacity: 0.8;
-}
-
 .projects__container .project__container .project__description__1 {
   width: 45rem;
   height: 23rem;
@@ -80,13 +73,13 @@
   margin-left: 2rem;
   margin-top: 2rem;
   font-size: 2rem;
+  font-weight: 400;
   letter-spacing: 0.3rem;
   color: #ffffff;
 }
 
 .projects__container .project__container .project__description__1 .pd__description {
-  margin-left: 2rem;
-  margin-top: 2rem;
+  margin: 2rem;
   font-size: 1.5rem;
   color: #ffffff;
 }
@@ -166,13 +159,13 @@
   margin-left: 2rem;
   margin-top: 2rem;
   font-size: 2rem;
+  font-weight: 400;
   letter-spacing: 0.3rem;
   color: #ffffff;
 }
 
 .projects__container .project__container .project__description__2 .pd__description {
-  margin-left: 2rem;
-  margin-top: 2rem;
+  margin: 2rem;
   font-size: 1.5rem;
   color: #ffffff;
 }
@@ -248,6 +241,63 @@
   top: 3rem;
 }
 
+.projects__container .project__container .project__description__3 .pd__title {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  color: #ffffff;
+}
+
+.projects__container .project__container .project__description__3 .pd__description {
+  margin: 2rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.projects__container .project__container .project__description__3 .pd__icons {
+  width: 60%;
+  margin: auto;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.projects__container .project__container .project__description__3 .pd__icons .pd__icon {
+  font-size: 2rem;
+  color: #ff3e55;
+}
+
+.projects__container .project__container .project__description__3 .pd__techniques {
+  margin-top: 4rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projects__container .project__container .project__description__3 .pd__techniques .pd__techniqe {
+  margin-right: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  color: #ffffff;
+}
+
 .projects__container .project__container .project__4__img {
   position: absolute;
   top: 1rem;
@@ -275,5 +325,284 @@
   position: absolute;
   left: 43rem;
   top: 3rem;
+}
+
+.projects__container .project__container .project__description__4 .pd__title {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  color: #ffffff;
+}
+
+.projects__container .project__container .project__description__4 .pd__description {
+  margin: 2rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.projects__container .project__container .project__description__4 .pd__icons {
+  width: 60%;
+  margin: auto;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.projects__container .project__container .project__description__4 .pd__icons .pd__icon {
+  font-size: 2rem;
+  color: #ff3e55;
+}
+
+.projects__container .project__container .project__description__4 .pd__techniques {
+  margin-top: 4rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projects__container .project__container .project__description__4 .pd__techniques .pd__techniqe {
+  margin-right: 2rem;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 0.3rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 999px) {
+  .projects__container .project__container {
+    width: 60%;
+    height: 30vw;
+    margin-bottom: 10vw;
+  }
+  .projects__container .project__container .project__1__img {
+    width: 70%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__1 {
+    width: 60%;
+    height: 25vw;
+    left: 45%;
+    top: 15%;
+  }
+  .projects__container .project__container .project__description__1 .pd__title {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__description {
+    font-size: 3.5rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__icons .pd__icon {
+    font-size: 5rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__techniques .pd__techniqe {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .projects__container .project__container {
+    width: 80%;
+    height: 50rem;
+    margin-bottom: 20rem;
+  }
+  .projects__container .project__container .project__1__img {
+    width: 70%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__1 {
+    width: 65%;
+    height: 40rem;
+    left: 35%;
+    top: 25%;
+  }
+  .projects__container .project__container .project__description__1 .pd__title {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__description {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__icons .pd__icon {
+    font-size: 6rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__techniques .pd__techniqe {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__2__img {
+    width: 70%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__2 {
+    width: 65%;
+    height: 40rem;
+    left: 35%;
+    top: 25%;
+  }
+  .projects__container .project__container .project__description__2 .pd__title {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__2 .pd__description {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__description__2 .pd__icons .pd__icon {
+    font-size: 6rem;
+  }
+  .projects__container .project__container .project__description__2 .pd__techniques .pd__techniqe {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__3__img {
+    width: 70%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__3 {
+    width: 65%;
+    height: 40rem;
+    left: 35%;
+    top: 25%;
+  }
+  .projects__container .project__container .project__description__3 .pd__title {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__3 .pd__description {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__description__3 .pd__icons .pd__icon {
+    font-size: 6rem;
+  }
+  .projects__container .project__container .project__description__3 .pd__techniques .pd__techniqe {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__4__img {
+    width: 70%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__4 {
+    width: 65%;
+    height: 40rem;
+    left: 35%;
+    top: 25%;
+  }
+  .projects__container .project__container .project__description__4 .pd__title {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__4 .pd__description {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__description__4 .pd__icons .pd__icon {
+    font-size: 6rem;
+  }
+  .projects__container .project__container .project__description__4 .pd__techniques .pd__techniqe {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects__container .project__container {
+    width: 90%;
+    height: 40rem;
+    margin-bottom: 12rem;
+  }
+  .projects__container .project__container .project__1__img {
+    width: 75%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__1 {
+    width: 80%;
+    height: 33rem;
+    left: 20%;
+    top: 35%;
+  }
+  .projects__container .project__container .project__description__1 .pd__title {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__description {
+    font-size: 2.5rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__icons .pd__icon {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__1 .pd__techniques .pd__techniqe {
+    font-size: 2rem;
+  }
+  .projects__container .project__container .project__2__img {
+    width: 75%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__2 {
+    width: 80%;
+    height: 33rem;
+    left: 20%;
+    top: 35%;
+  }
+  .projects__container .project__container .project__description__2 .pd__title {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__description__2 .pd__description {
+    font-size: 2.5rem;
+  }
+  .projects__container .project__container .project__description__2 .pd__icons .pd__icon {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__2 .pd__techniques .pd__techniqe {
+    font-size: 2rem;
+  }
+  .projects__container .project__container .project__3__img {
+    width: 75%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__3 {
+    width: 80%;
+    height: 33rem;
+    left: 20%;
+    top: 35%;
+  }
+  .projects__container .project__container .project__description__3 .pd__title {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__description__3 .pd__description {
+    font-size: 2.5rem;
+  }
+  .projects__container .project__container .project__description__3 .pd__icons .pd__icon {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__3 .pd__techniques .pd__techniqe {
+    font-size: 2rem;
+  }
+  .projects__container .project__container .project__4__img {
+    width: 75%;
+    height: auto;
+  }
+  .projects__container .project__container .project__description__4 {
+    width: 80%;
+    height: 33rem;
+    left: 20%;
+    top: 35%;
+  }
+  .projects__container .project__container .project__description__4 .pd__title {
+    font-size: 3rem;
+  }
+  .projects__container .project__container .project__description__4 .pd__description {
+    font-size: 2.5rem;
+  }
+  .projects__container .project__container .project__description__4 .pd__icons .pd__icon {
+    font-size: 4rem;
+  }
+  .projects__container .project__container .project__description__4 .pd__techniques .pd__techniqe {
+    font-size: 2rem;
+  }
 }
 /*# sourceMappingURL=projects.styles.css.map */
