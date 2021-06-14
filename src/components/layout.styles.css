@@ -3,12 +3,12 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 4px;
+  font-size: 8px;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1000px) {
   * {
-    font-size: 8px;
+    font-size: 4px;
   }
 }
 
@@ -78,7 +78,7 @@
           justify-content: center;
   position: fixed;
   top: 75vh;
-  left: 45%;
+  left: 10%;
   width: 10rem;
   height: 10rem;
   z-index: 999;
@@ -87,6 +87,7 @@
 .layout__container .scroll__icon .scroll__mouse {
   color: #ffffff;
   font-size: 5vh;
+  font-size: 30px;
 }
 
 .layout__container .scroll__icon .scroll__arrows {

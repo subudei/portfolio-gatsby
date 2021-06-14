@@ -1,6 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 .about__container {
-  background-color: coral;
+  background-color: #01142e;
   width: 100%;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.about__container .about__section {
+  width: 80%;
+  margin: auto;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-size: 3vw;
+  letter-spacing: 0.15vw;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 1200px) {
+  .about__container .about__section {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .about__container .about__section {
+    font-size: 8rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  .about__container .about__section {
+    font-size: 7rem;
+    letter-spacing: 0.4rem;
+  }
 }
 /*# sourceMappingURL=about.styles.css.map */

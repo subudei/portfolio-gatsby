@@ -1,5 +1,131 @@
+$color1: #01142e;
+$color2: #db0b7d;
+$color3: #a4db00;
+$color4: #250bdb;
+$color5: #8f0e55;
+$background: #021d44;
+$detailColor: #ff3e55;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 .contact__container {
-  background-color: blue;
+  background-color: $background;
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .contact__message__wrapper {
+    width: 80%;
+    margin: auto;
+    margin-top: 25vh;
+    text-align: center;
+
+    .contact__message {
+      color: #ffffff;
+      font-size: 3vw;
+      letter-spacing: 0.2rem;
+      line-height: 1.5;
+      font-family: "Lato", sans-serif;
+      .contact__message__span {
+        color: $detailColor;
+        font-size: inherit;
+      }
+    }
+
+    @media screen and (max-width: 1200px) {
+      .contact__message {
+        font-size: 5rem;
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      .contact__message {
+        font-size: 7rem;
+        letter-spacing: 0.4rem;
+      }
+    }
+  }
+  .contact__links__wrapper {
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: "Lato", sans-serif;
+    .contact__icons {
+      width: 100%;
+      margin-bottom: 10vh;
+      display: flex;
+      justify-content: space-evenly;
+      // background-color: rgba(0, 0, 0, 0.2);
+
+      .contact__icon__l {
+        // margin-right: 15rem;
+        font-size: 2.5rem;
+        color: $detailColor;
+        &:hover {
+          color: #ffffff;
+          transition: 0.2s;
+        }
+      }
+      .contact__icon__g {
+        // margin-left: 15rem;
+        font-size: 2.5rem;
+
+        color: $detailColor;
+        &:hover {
+          color: #ffffff;
+          transition: 0.2s;
+        }
+      }
+      .contact__mobile {
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        color: #ffffff;
+      }
+      .contact__mail__address {
+        font-size: 2rem;
+        color: $detailColor;
+        text-decoration: none;
+        &:hover {
+          color: #ffffff;
+          transition: 0.2s;
+        }
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      .contact__icons {
+        .contact__icon__l {
+          font-size: 24px;
+        }
+        .contact__icon__g {
+          font-size: 24px;
+        }
+        .contact__mobile {
+          font-size: 12px;
+          text-align: center;
+          margin-bottom: 16px;
+        }
+        .contact__mail__address {
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+      .pm {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+  .contact__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: $color1;
+    color: #000a18;
+  }
 }

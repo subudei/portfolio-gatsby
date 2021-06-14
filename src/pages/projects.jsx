@@ -2,8 +2,10 @@ import React, { useEffect } from "react"
 import "./projects.styles.css"
 
 import { StaticImage } from "gatsby-plugin-image"
+
 import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
+
 import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaGlobe } from "@react-icons/all-files/fa/FaGlobe"
 
@@ -103,15 +105,19 @@ function Projects() {
       </div>
       <div className="project__container">
         <div className="project__1__img">
-          <StaticImage
-            src="../images/wapp.png"
-            // width={300}
-            quality={100}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Weather__App"
-            className="pr__image"
-            // style={{ marginBottom: `1.45rem` }}
-          />
+          <a
+            href="https://subudei.github.io/weather-app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <StaticImage
+              src="../images/wapp.png"
+              quality={100}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Weather__App"
+              className="pr__image"
+            />
+          </a>
         </div>
         <div className="project__description__1">
           <h2 className="pd__title">Weather App</h2>
@@ -143,15 +149,19 @@ function Projects() {
       </div>
       <div className="project__container">
         <div className="project__2__img">
-          <StaticImage
-            src="../images/todo__app.png"
-            // width={300}
-            quality={100}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Todo__App"
-            className="pr__image"
-            // style={{ marginBottom: `1.45rem` }}
-          />
+          <a
+            href="https://react-todo-app-723ec.firebaseapp.com/login"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <StaticImage
+              src="../images/todo__app.png"
+              quality={100}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Todo__App"
+              className="pr__image"
+            />
+          </a>
         </div>
         <div className="project__description__2">
           <h2 className="pd__title">Todo App</h2>
@@ -185,15 +195,19 @@ function Projects() {
       </div>
       <div className="project__container">
         <div className="project__3__img">
-          <StaticImage
-            src="../images/ecommerce.png"
-            // width={300}
-            quality={100}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="Ecommerce__App"
-            className="pr__image"
-            // style={{ marginBottom: `1.45rem` }}
-          />
+          <a
+            href="https://ecommerce-2021-b67ff.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <StaticImage
+              src="../images/ecommerce.png"
+              quality={100}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="Ecommerce__App"
+              className="pr__image"
+            />
+          </a>
         </div>
         <div className="project__description__3">
           <h2 className="pd__title">E-commerce website</h2>
@@ -228,15 +242,19 @@ function Projects() {
       </div>
       <div className="project__container">
         <div className="project__4__img">
-          <StaticImage
-            src="../images/massage_page.png"
-            // width={300}
-            quality={100}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="WWeb_page"
-            className="pr__image"
-            // style={{ marginBottom: `1.45rem` }}
-          />
+          <a
+            href="https://xenodochial-williams-6de26a.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <StaticImage
+              src="../images/massage_page.png"
+              quality={100}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="WWeb_page"
+              className="pr__image"
+            />
+          </a>
         </div>
         <div className="project__description__4">
           <h2 className="pd__title">Massage Room</h2>
