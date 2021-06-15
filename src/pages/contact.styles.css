@@ -32,12 +32,15 @@
 
 .contact__container .contact__message__wrapper .contact__message .contact__message__span {
   color: #ff3e55;
-  font-size: inherit;
+  font-size: 3.5vw;
 }
 
 @media screen and (max-width: 1200px) {
   .contact__container .contact__message__wrapper .contact__message {
     font-size: 5rem;
+  }
+  .contact__container .contact__message__wrapper .contact__message .contact__message__span {
+    font-size: 6rem;
   }
 }
 
@@ -45,6 +48,9 @@
   .contact__container .contact__message__wrapper .contact__message {
     font-size: 7rem;
     letter-spacing: 0.4rem;
+  }
+  .contact__container .contact__message__wrapper .contact__message .contact__message__span {
+    font-size: 8rem;
   }
 }
 

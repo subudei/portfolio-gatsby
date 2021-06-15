@@ -30,19 +30,26 @@ $detailColor: #ff3e55;
       font-family: "Lato", sans-serif;
       .contact__message__span {
         color: $detailColor;
-        font-size: inherit;
+        font-size: 3.5vw;
       }
     }
 
     @media screen and (max-width: 1200px) {
       .contact__message {
         font-size: 5rem;
+        .contact__message__span {
+          font-size: 6rem;
+        }
       }
     }
     @media screen and (max-width: 1000px) {
       .contact__message {
         font-size: 7rem;
         letter-spacing: 0.4rem;
+
+        .contact__message__span {
+          font-size: 8rem;
+        }
       }
     }
   }

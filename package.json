@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "React Developer portfolio created in Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Milan Cirkovic",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^3.4.1",
@@ -27,7 +27,7 @@
     "prettier": "2.2.1"
   },
   "keywords": [
-    "gatsby"
+    "react", "programmer", "developer", "react developer", "java script", "node js", "milan cirkovic"
   ],
   "license": "0BSD",
   "scripts": {
