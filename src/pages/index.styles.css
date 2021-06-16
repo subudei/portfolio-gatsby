@@ -5,6 +5,19 @@
           box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #00173a;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #01142e;
+  border-radius: 5px;
+}
+
 .app__container {
   width: 100%;
   display: -webkit-box;

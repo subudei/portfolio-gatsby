@@ -10,6 +10,16 @@ $detailColor: #ff3e55;
   padding: 0;
   box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #00173a;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: $color1;
+  border-radius: 5px;
+}
 .app__container {
   width: 100%;
   display: flex;

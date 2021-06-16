@@ -81,40 +81,51 @@
 
 .contact__container .contact__links__wrapper .contact__icons .contact__icon__l {
   font-size: 2.5rem;
-  color: #ff3e55;
+  color: #ffffff;
 }
 
 .contact__container .contact__links__wrapper .contact__icons .contact__icon__l:hover {
-  color: #ffffff;
+  color: #ff3e55;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 .contact__container .contact__links__wrapper .contact__icons .contact__icon__g {
   font-size: 2.5rem;
-  color: #ff3e55;
+  color: #ffffff;
 }
 
 .contact__container .contact__links__wrapper .contact__icons .contact__icon__g:hover {
-  color: #ffffff;
+  color: #ff3e55;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 .contact__container .contact__links__wrapper .contact__icons .contact__mobile {
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 0.1rem;
   color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__container .contact__links__wrapper .contact__icons .contact__mobile .contact__icon__p {
+  font-size: 2.5rem;
+  margin-right: 1rem;
 }
 
 .contact__container .contact__links__wrapper .contact__icons .contact__mail__address {
   font-size: 2rem;
-  color: #ff3e55;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .contact__container .contact__links__wrapper .contact__icons .contact__mail__address:hover {
-  color: #ffffff;
+  color: #ff3e55;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }

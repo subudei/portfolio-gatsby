@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 import { FiLinkedin } from "@react-icons/all-files/fi/FiLinkedin"
 import { FiGithub } from "@react-icons/all-files/fi/FiGithub"
+import { FiPhoneIncoming } from "@react-icons/all-files/fi/FiPhoneIncoming"
 
 function Contact() {
   gsap.registerPlugin(ScrollTrigger)
@@ -64,7 +65,10 @@ function Contact() {
           </a>
         </div>
         <div className="contact__icons pm">
-          <div className="contact__mobile">+38163363796</div>
+          <div className="contact__mobile">
+            <FiPhoneIncoming className="contact__icon__p" />
+            +38163363796
+          </div>
           <div className="contact__mail">
             <a
               className="contact__mail__address"

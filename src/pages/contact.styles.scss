@@ -70,33 +70,41 @@ $detailColor: #ff3e55;
       .contact__icon__l {
         // margin-right: 15rem;
         font-size: 2.5rem;
-        color: $detailColor;
+        color: #ffffff;
+
         &:hover {
-          color: #ffffff;
+          color: $detailColor;
           transition: 0.2s;
         }
       }
       .contact__icon__g {
         // margin-left: 15rem;
         font-size: 2.5rem;
+        color: #ffffff;
 
-        color: $detailColor;
         &:hover {
-          color: #ffffff;
+          color: $detailColor;
           transition: 0.2s;
         }
       }
       .contact__mobile {
-        font-size: 2rem;
+        font-size: 1.5rem;
         letter-spacing: 0.1rem;
         color: #ffffff;
+        display: flex;
+        align-items: center;
+        .contact__icon__p {
+          font-size: 2.5rem;
+          margin-right: 1rem;
+        }
       }
       .contact__mail__address {
         font-size: 2rem;
-        color: $detailColor;
+        color: #ffffff;
+
         text-decoration: none;
         &:hover {
-          color: #ffffff;
+          color: $detailColor;
           transition: 0.2s;
         }
       }

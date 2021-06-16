@@ -86,12 +86,11 @@
 
 .layout__container .scroll__icon .scroll__mouse {
   color: #ffffff;
-  font-size: 5vh;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .layout__container .scroll__icon .scroll__arrows {
-  font-size: 4vh;
+  font-size: 35px;
   color: #ff3e55;
 }
 /*# sourceMappingURL=layout.styles.css.map */
