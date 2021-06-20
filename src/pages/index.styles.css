@@ -27,6 +27,77 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
+}
+
+.app__container .scroll__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  top: 75vh;
+  left: 10%;
+  width: 10rem;
+  height: 10rem;
+  z-index: 999;
+}
+
+.app__container .scroll__icon .scroll__mouse {
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.app__container .scroll__icon .scroll__arrows {
+  font-size: 35px;
+  color: #ff3e55;
+}
+
+.app__container .contact__icon {
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ff3e55;
+  position: fixed;
+  top: 3vh;
+  right: 5%;
+  z-index: 999;
+}
+
+.app__container .contact__icon .mail__icon {
+  color: #ffffff;
+  font-size: 3rem;
+  margin: auto;
+}
+
+.app__container .contact__icon:hover {
+  cursor: pointer;
+  background-color: #250bdb;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.app__container .contact__icon:hover .mail__icon {
+  color: #ff3e55;
 }
 
 .app__container .home__container {
@@ -43,6 +114,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 1000px) {
+  .app__container .scroll__icon .scroll__mouse {
+    font-size: 10rem;
+  }
+  .app__container .scroll__icon .scroll__arrows {
+    font-size: 10rem;
+  }
+  .app__container .contact__icon {
+    width: 30px;
+    height: 30px;
+  }
+  .app__container .contact__icon .mail__icon {
+    font-size: 5rem;
+  }
   .app__container .home__container .home__animation {
     margin-top: 40rem;
     width: 100%;

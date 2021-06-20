@@ -24,6 +24,56 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
+
+  .scroll__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 75vh;
+    left: 10%;
+    width: 10rem;
+    height: 10rem;
+    z-index: 999;
+    .scroll__mouse {
+      color: #ffffff;
+      font-size: 35px;
+    }
+    .scroll__arrows {
+      font-size: 35px;
+      color: #ff3e55;
+    }
+  }
+  .contact__icon {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ff3e55;
+    position: fixed;
+    top: 3vh;
+    right: 5%;
+    z-index: 999;
+
+    .mail__icon {
+      color: #ffffff;
+      font-size: 3rem;
+      margin: auto;
+    }
+    &:hover {
+      cursor: pointer;
+      background-color: #250bdb;
+      transition: 0.4s;
+      .mail__icon {
+        color: #ff3e55;
+      }
+    }
+  }
   .home__container {
     width: 100%;
     min-height: 100vh;
@@ -39,6 +89,22 @@ body::-webkit-scrollbar-thumb {
 }
 @media screen and (max-width: 1000px) {
   .app__container {
+    .scroll__icon {
+      .scroll__mouse {
+        font-size: 10rem;
+      }
+      .scroll__arrows {
+        font-size: 10rem;
+      }
+    }
+    .contact__icon {
+      width: 30px;
+      height: 30px;
+      .mail__icon {
+        font-size: 5rem;
+      }
+    }
+
     .home__container {
       .home__animation {
         margin-top: 40rem;
@@ -47,19 +113,3 @@ body::-webkit-scrollbar-thumb {
     }
   }
 }
-// @media screen and (max-width: 800px) {
-//   .home__container {
-//     .home__animation {
-//       margin-top: 35rem;
-//       width: 85%;
-//     }
-//   }
-// }
-// @media screen and (max-width: 1100px) {
-//   .home__container {
-//     .home__animation {
-//       margin-top: 35rem;
-//       width: 70%;
-//     }
-//   }
-// }
