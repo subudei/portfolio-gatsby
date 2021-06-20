@@ -47,7 +47,7 @@ function Contact() {
     <div className="contact__container">
       <div className="contact__message__wrapper">
         <h1 className="contact__message">
-          For any proposal of collaboration, fell free to <br />
+          For any proposal of collaboration, feel free to <br />
           <span className="contact__message__span"> contact me.</span>
         </h1>
       </div>
