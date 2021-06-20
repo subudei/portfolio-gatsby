@@ -132,18 +132,18 @@
 
 @media screen and (max-width: 1000px) {
   .contact__container .contact__links__wrapper .contact__icons .contact__icon__l {
-    font-size: 24px;
+    font-size: 30px;
   }
   .contact__container .contact__links__wrapper .contact__icons .contact__icon__g {
-    font-size: 24px;
+    font-size: 30px;
   }
   .contact__container .contact__links__wrapper .contact__icons .contact__mobile {
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     margin-bottom: 16px;
   }
   .contact__container .contact__links__wrapper .contact__icons .contact__mail__address {
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
   }
   .contact__container .contact__links__wrapper .pm {

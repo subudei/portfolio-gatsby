@@ -112,14 +112,15 @@
 @media screen and (max-width: 499px) {
   .nav__container .nav__logo .logo__link .logo__text {
     font-size: 3.5rem;
-    letter-spacing: 1.8rem;
+    letter-spacing: 1.9rem;
   }
   .nav__container .menu__links {
     margin-top: 9rem;
   }
   .nav__container .menu__links .menu__link {
-    font-size: 4rem;
-    letter-spacing: 0.3rem;
+    font-size: 4.5rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 2rem;
   }
 }
 /*# sourceMappingURL=nav.styles.css.map */

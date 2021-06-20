@@ -48,7 +48,8 @@
 
 .layout__container .contact__icon .mail__icon {
   color: #ffffff;
-  font-size: 25px;
+  font-size: 2rem;
+  margin: auto;
 }
 
 .layout__container .contact__icon:hover {
