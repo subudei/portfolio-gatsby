@@ -37,7 +37,7 @@ function Projects() {
     const tlp2 = gsap.timeline({
       scrollTrigger: {
         trigger: ".project__2__img",
-        // markers: true,
+
         start: "top 65%",
         end: "top top",
       },
@@ -58,7 +58,6 @@ function Projects() {
     const tlp3 = gsap.timeline({
       scrollTrigger: {
         trigger: ".project__3__img",
-        // markers: true,
         start: "top 65%",
         end: "top top",
       },
@@ -80,7 +79,7 @@ function Projects() {
       scrollTrigger: {
         trigger: ".project__4__img",
         // markers: true,
-        start: "top 65%",
+        start: "top 75%",
         end: "top top",
       },
     })

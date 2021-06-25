@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 30rem;
+  height: 40rem;
   overflow: hidden;
   // background-color: #5582c2;
   z-index: 999;
@@ -14,13 +14,12 @@
   justify-content: space-between;
 
   .nav__logo {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 7rem;
     width: fit-content;
 
     .logo__link {
       margin-top: 3rem;
-
       color: #ffffff;
       text-decoration: none;
       // font-family: "Monoton", cursive;
@@ -41,7 +40,7 @@
     }
   }
   .menu__links {
-    margin-right: 3rem;
+    margin-right: 5%;
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
@@ -53,6 +52,7 @@
       display: inline-block;
       font-size: 2rem;
       font-weight: 800;
+
       letter-spacing: 0.3rem;
       color: #ffffff;
       overflow: hidden;
@@ -75,21 +75,16 @@
 }
 @media screen and (max-width: 1000px) {
   .nav__container {
-    height: 45rem;
     .nav__logo {
-      margin-top: 10rem;
-      // margin-left: 10%;
       .logo__link {
         .logo__text {
-          margin-top: 3rem;
-          font-size: 4rem;
-          letter-spacing: 2.2rem;
+          font-size: 6rem;
+          letter-spacing: 2.5rem;
         }
       }
     }
 
     .menu__links {
-      margin-top: 9rem;
       .menu__link {
         font-size: 4.5rem;
         letter-spacing: 0.5rem;
@@ -103,18 +98,17 @@
     .nav__logo {
       .logo__link {
         .logo__text {
-          font-size: 3.5rem;
-          letter-spacing: 1.9rem;
+          font-size: 4vw;
+          letter-spacing: 2.5vw;
         }
       }
     }
 
     .menu__links {
-      margin-top: 9rem;
       .menu__link {
-        font-size: 4.5rem;
-        letter-spacing: 0.4rem;
-        margin-bottom: 2rem;
+        font-size: 4.5vw;
+        letter-spacing: 0.5vw;
+        margin-bottom: 1.8vw;
       }
     }
   }

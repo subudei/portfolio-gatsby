@@ -12,12 +12,13 @@ $detailColor: #ff3e55;
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
+  padding-bottom: 20rem;
 
   .projects__header {
     display: flex;
     margin: auto;
     margin-top: 10%;
-    margin-bottom: 8rem;
+    margin-bottom: 70px;
     // padding: 0 5vw;
 
     .ph__title {
@@ -31,19 +32,19 @@ $detailColor: #ff3e55;
   }
   .project__container {
     display: flex;
-    width: 70rem;
-    height: 30rem;
+    width: 750px;
+    height: 350px;
     border: 1px solid #ff3e55;
     margin: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 40px;
     position: relative;
     font-family: "Lato", sans-serif;
     .project__1__img {
       position: absolute;
-      top: 1rem;
-      left: -1rem;
-      height: 27rem;
-      width: 48rem;
+      top: 12px;
+      left: -24px;
+      width: 570px;
+      height: 320px;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       display: flex;
@@ -53,71 +54,67 @@ $detailColor: #ff3e55;
       .pr__image {
         height: 100%;
       }
-      // &:hover {
-      //   // box-shadow: 5px 5px 15px 5px $color4;
-      //   opacity: 1;
-      //   transition: 0.2s;
-      //   opacity: 0.8;
-      // }
     }
     .project__description__1 {
-      width: 45rem;
-      height: 23rem;
+      width: 500px;
+      height: 300px;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       position: absolute;
-      left: 43rem;
-      top: 3rem;
+      right: -24px;
+      top: 60px;
 
       .pd__title {
-        margin-left: 2rem;
-        margin-top: 2rem;
-        font-size: 2rem;
+        margin-left: 24px;
+        margin-top: 24px;
+        font-size: 20px;
         font-weight: 400;
-        letter-spacing: 0.3rem;
+        letter-spacing: 1.5px;
         color: #ffffff;
       }
       .pd__description {
-        margin: 2rem;
-        font-size: 1.5rem;
+        margin: 24px;
+        font-size: 16px;
+        letter-spacing: 1.2px;
         color: #ffffff;
       }
       .pd__icons {
         width: 60%;
         margin: auto;
-        margin-top: 4rem;
+        margin-top: 40px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
 
         .pd__icon {
-          font-size: 2rem;
+          font-size: 24px;
           color: $detailColor;
         }
       }
 
       .pd__techniques {
-        margin-top: 4rem;
+        margin-top: 40px;
         width: 100%;
         display: flex;
         align-items: center;
+
         justify-content: center;
 
         .pd__techniqe {
-          margin-right: 2rem;
-          font-size: 1rem;
+          margin: auto 12px;
+          font-size: 12px;
           font-weight: 300;
-          letter-spacing: 0.3rem;
+          letter-spacing: 1.5px;
           color: #ffffff;
         }
       }
     }
     .project__2__img {
       position: absolute;
-      top: 1rem;
-      left: -1rem;
-      height: 27rem;
-      width: 48rem;
+      top: 12px;
+      left: -24px;
+      width: 570px;
+      height: 320px;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       display: flex;
@@ -125,63 +122,65 @@ $detailColor: #ff3e55;
       cursor: pointer;
     }
     .project__description__2 {
-      width: 45rem;
-      height: 23rem;
+      width: 500px;
+      height: 300px;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       position: absolute;
-      left: 43rem;
-      top: 3rem;
+      right: -24px;
+      top: 60px;
 
       .pd__title {
-        margin-left: 2rem;
-        margin-top: 2rem;
-        font-size: 2rem;
+        margin-left: 24px;
+        margin-top: 24px;
+        font-size: 20px;
         font-weight: 400;
-        letter-spacing: 0.3rem;
+        letter-spacing: 1.5px;
         color: #ffffff;
       }
       .pd__description {
-        margin: 2rem;
-        font-size: 1.5rem;
+        margin: 24px;
+        font-size: 16px;
+        letter-spacing: 1.2px;
         color: #ffffff;
       }
       .pd__icons {
         width: 60%;
         margin: auto;
-        margin-top: 4rem;
+        margin-top: 40px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
 
         .pd__icon {
-          font-size: 2rem;
+          font-size: 24px;
           color: $detailColor;
         }
       }
 
       .pd__techniques {
-        margin-top: 4rem;
+        margin-top: 40px;
         width: 100%;
         display: flex;
         align-items: center;
+
         justify-content: center;
 
         .pd__techniqe {
-          margin-right: 2rem;
-          font-size: 1rem;
+          margin: auto 12px;
+          font-size: 12px;
           font-weight: 300;
-          letter-spacing: 0.3rem;
+          letter-spacing: 1.5px;
           color: #ffffff;
         }
       }
     }
     .project__3__img {
       position: absolute;
-      top: 1rem;
-      left: -1rem;
-      height: 27rem;
-      width: 48rem;
+      top: 12px;
+      left: -24px;
+      width: 570px;
+      height: 320px;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       display: flex;
@@ -189,62 +188,65 @@ $detailColor: #ff3e55;
       cursor: pointer;
     }
     .project__description__3 {
-      width: 45rem;
-      height: 23rem;
+      width: 500px;
+      height: 300px;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       position: absolute;
-      left: 43rem;
-      top: 3rem;
+      right: -24px;
+      top: 60px;
+
       .pd__title {
-        margin-left: 2rem;
-        margin-top: 2rem;
-        font-size: 2rem;
+        margin-left: 24px;
+        margin-top: 24px;
+        font-size: 20px;
         font-weight: 400;
-        letter-spacing: 0.3rem;
+        letter-spacing: 1.5px;
         color: #ffffff;
       }
       .pd__description {
-        margin: 2rem;
-        font-size: 1.5rem;
+        margin: 24px;
+        font-size: 16px;
+        letter-spacing: 1.2px;
         color: #ffffff;
       }
       .pd__icons {
         width: 60%;
         margin: auto;
-        margin-top: 4rem;
+        margin-top: 40px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
 
         .pd__icon {
-          font-size: 2rem;
+          font-size: 24px;
           color: $detailColor;
         }
       }
 
       .pd__techniques {
-        margin-top: 4rem;
+        margin-top: 40px;
         width: 100%;
         display: flex;
         align-items: center;
+
         justify-content: center;
 
         .pd__techniqe {
-          margin-right: 2rem;
-          font-size: 1rem;
+          margin: auto 12px;
+          font-size: 12px;
           font-weight: 300;
-          letter-spacing: 0.3rem;
+          letter-spacing: 1.5px;
           color: #ffffff;
         }
       }
     }
     .project__4__img {
       position: absolute;
-      top: 1rem;
-      left: -1rem;
-      height: 27rem;
-      width: 48rem;
+      top: 12px;
+      left: -24px;
+      width: 570px;
+      height: 320px;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       display: flex;
@@ -252,52 +254,55 @@ $detailColor: #ff3e55;
       cursor: pointer;
     }
     .project__description__4 {
-      width: 45rem;
-      height: 23rem;
+      width: 500px;
+      height: 300px;
       background-color: $color1;
       box-shadow: 5px 5px 15px 5px #000000;
       position: absolute;
-      left: 43rem;
-      top: 3rem;
+      right: -24px;
+      top: 60px;
+
       .pd__title {
-        margin-left: 2rem;
-        margin-top: 2rem;
-        font-size: 2rem;
+        margin-left: 24px;
+        margin-top: 24px;
+        font-size: 20px;
         font-weight: 400;
-        letter-spacing: 0.3rem;
+        letter-spacing: 1.5px;
         color: #ffffff;
       }
       .pd__description {
-        margin: 2rem;
-        font-size: 1.5rem;
+        margin: 24px;
+        font-size: 16px;
+        letter-spacing: 1.2px;
         color: #ffffff;
       }
       .pd__icons {
         width: 60%;
         margin: auto;
-        margin-top: 4rem;
+        margin-top: 40px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
 
         .pd__icon {
-          font-size: 2rem;
+          font-size: 24px;
           color: $detailColor;
         }
       }
 
       .pd__techniques {
-        margin-top: 4rem;
+        margin-top: 40px;
         width: 100%;
         display: flex;
         align-items: center;
+
         justify-content: center;
 
         .pd__techniqe {
-          margin-right: 2rem;
-          font-size: 1rem;
+          margin: auto 12px;
+          font-size: 12px;
           font-weight: 300;
-          letter-spacing: 0.3rem;
+          letter-spacing: 1.5px;
           color: #ffffff;
         }
       }
@@ -306,161 +311,140 @@ $detailColor: #ff3e55;
 }
 @media screen and (max-width: 999px) {
   .projects__container {
-    .project__container {
-      width: 60%;
-      height: 30vw;
-      margin-bottom: 10vw;
-
-      .project__1__img {
-        width: 70%;
-        height: auto;
-      }
-
-      .project__description__1 {
-        width: 60%;
-        height: 25vw;
-        left: 45%;
-        top: 15%;
-
-        .pd__title {
-          font-size: 4rem;
-        }
-        .pd__description {
-          font-size: 3.5rem;
-        }
-        .pd__icons {
-          .pd__icon {
-            font-size: 5rem;
-          }
-        }
-        .pd__techniques {
-          .pd__techniqe {
-            font-size: 3rem;
-          }
-        }
-      }
+    .projects__header {
+      margin-bottom: 7vw;
     }
-  }
-}
-@media screen and (max-width: 700px) {
-  .projects__container {
     .project__container {
       width: 80%;
-      height: 50rem;
-      margin-bottom: 20rem;
+      height: 35vw;
+      margin-bottom: 4vw;
+      margin-bottom: 40px;
 
       .project__1__img {
-        width: 70%;
+        width: 57vw;
         height: auto;
+        left: -2.4vw;
       }
 
       .project__description__1 {
-        width: 65%;
-        height: 40rem;
-        left: 35%;
-        top: 25%;
+        width: 50vw;
+        height: 30vw;
+        right: -2.4vw;
+        top: 6vw;
 
         .pd__title {
-          font-size: 4rem;
+          font-size: 2.3vw;
         }
         .pd__description {
-          font-size: 3rem;
+          font-size: 1.6vw;
+          margin: 2.4vw;
         }
         .pd__icons {
+          margin-top: 4vw;
           .pd__icon {
-            font-size: 6rem;
+            font-size: 2.4vw;
           }
         }
         .pd__techniques {
+          margin-top: 4vw;
           .pd__techniqe {
-            font-size: 3rem;
+            font-size: 1.2vw;
           }
         }
       }
-
       .project__2__img {
-        width: 70%;
+        width: 57vw;
         height: auto;
+        left: -2.4vw;
       }
 
       .project__description__2 {
-        width: 65%;
-        height: 40rem;
-        left: 35%;
-        top: 25%;
+        width: 50vw;
+        height: 30vw;
+        right: -2.4vw;
+        top: 6vw;
 
         .pd__title {
-          font-size: 4rem;
+          font-size: 2.3vw;
         }
         .pd__description {
-          font-size: 3rem;
+          font-size: 1.6vw;
+          margin: 2.4vw;
         }
         .pd__icons {
+          margin-top: 4vw;
           .pd__icon {
-            font-size: 6rem;
+            font-size: 2.4vw;
           }
         }
         .pd__techniques {
+          margin-top: 4vw;
           .pd__techniqe {
-            font-size: 3rem;
+            font-size: 1.2vw;
           }
         }
       }
-
       .project__3__img {
-        width: 70%;
+        width: 57vw;
         height: auto;
+        left: -2.4vw;
       }
 
       .project__description__3 {
-        width: 65%;
-        height: 40rem;
-        left: 35%;
-        top: 25%;
+        width: 50vw;
+        height: 30vw;
+        right: -2.4vw;
+        top: 6vw;
 
         .pd__title {
-          font-size: 4rem;
+          font-size: 2.3vw;
         }
         .pd__description {
-          font-size: 3rem;
+          font-size: 1.6vw;
+          margin: 2.4vw;
         }
         .pd__icons {
+          margin-top: 4vw;
           .pd__icon {
-            font-size: 6rem;
+            font-size: 2.4vw;
           }
         }
         .pd__techniques {
+          margin-top: 4vw;
           .pd__techniqe {
-            font-size: 3rem;
+            font-size: 1.2vw;
           }
         }
       }
-
       .project__4__img {
-        width: 70%;
+        width: 57vw;
         height: auto;
+        left: -2.4vw;
       }
 
       .project__description__4 {
-        width: 65%;
-        height: 40rem;
-        left: 35%;
-        top: 25%;
+        width: 50vw;
+        height: 30vw;
+        right: -2.4vw;
+        top: 6vw;
 
         .pd__title {
-          font-size: 4rem;
+          font-size: 2.3vw;
         }
         .pd__description {
-          font-size: 3rem;
+          font-size: 1.6vw;
+          margin: 2.4vw;
         }
         .pd__icons {
+          margin-top: 4vw;
           .pd__icon {
-            font-size: 6rem;
+            font-size: 2.4vw;
           }
         }
         .pd__techniques {
+          margin-top: 4vw;
           .pd__techniqe {
-            font-size: 3rem;
+            font-size: 1.2vw;
           }
         }
       }
@@ -471,130 +455,42 @@ $detailColor: #ff3e55;
 @media screen and (max-width: 500px) {
   .projects__container {
     .project__container {
-      width: 90%;
-      height: 40rem;
-      margin-bottom: 12rem;
-
       .project__1__img {
         width: 75%;
         height: auto;
       }
-
       .project__description__1 {
-        width: 80%;
-        height: 33rem;
-        left: 20%;
-        top: 35%;
-        .pd__title {
-          font-size: 3rem;
-        }
-        .pd__description {
-          font-size: 2.5rem;
-        }
-        .pd__icons {
-          .pd__icon {
-            font-size: 4rem;
-          }
-        }
-        .pd__techniques {
-          .pd__techniqe {
-            font-size: 2rem;
-          }
-        }
+        width: 65vw;
+        height: 160px;
+        height: 33vw;
       }
-
       .project__2__img {
         width: 75%;
         height: auto;
       }
-
       .project__description__2 {
-        width: 80%;
-        height: 33rem;
-        left: 20%;
-        top: 35%;
-        .pd__title {
-          font-size: 3rem;
-        }
-        .pd__description {
-          font-size: 2.5rem;
-        }
-        .pd__icons {
-          .pd__icon {
-            font-size: 4rem;
-          }
-        }
-        .pd__techniques {
-          .pd__techniqe {
-            font-size: 2rem;
-          }
-        }
+        width: 65vw;
+        height: 160px;
+        height: 33vw;
       }
-
       .project__3__img {
         width: 75%;
         height: auto;
       }
-
       .project__description__3 {
-        width: 80%;
-        height: 33rem;
-        left: 20%;
-        top: 35%;
-        .pd__title {
-          font-size: 3rem;
-        }
-        .pd__description {
-          font-size: 2.5rem;
-        }
-        .pd__icons {
-          .pd__icon {
-            font-size: 4rem;
-          }
-        }
-        .pd__techniques {
-          .pd__techniqe {
-            font-size: 2rem;
-          }
-        }
+        width: 65vw;
+        height: 160px;
+        height: 33vw;
       }
-
       .project__4__img {
         width: 75%;
         height: auto;
       }
-
       .project__description__4 {
-        width: 80%;
-        height: 33rem;
-        left: 20%;
-        top: 35%;
-        .pd__title {
-          font-size: 3rem;
-        }
-        .pd__description {
-          font-size: 2.5rem;
-        }
-        .pd__icons {
-          .pd__icon {
-            font-size: 4rem;
-          }
-        }
-        .pd__techniques {
-          .pd__techniqe {
-            font-size: 2rem;
-          }
-        }
+        width: 65vw;
+        height: 160px;
+        height: 33vw;
       }
     }
   }
 }
-// @media screen and (max-width: 1000px) {
-//   .projects__container {
-//     .project__container {
-//       width: 70%;
-//       height: 40rem;
-//       margin-bottom: 12rem;
-//     }
-//   }
-// }

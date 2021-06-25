@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 30rem;
+  height: 40rem;
   overflow: hidden;
   z-index: 999;
   display: -webkit-box;
@@ -18,7 +18,7 @@
 }
 
 .nav__container .nav__logo {
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 7rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -47,7 +47,7 @@
 }
 
 .nav__container .menu__links {
-  margin-right: 3rem;
+  margin-right: 5%;
   margin-top: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,19 +89,9 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .nav__container {
-    height: 45rem;
-  }
-  .nav__container .nav__logo {
-    margin-top: 10rem;
-  }
   .nav__container .nav__logo .logo__link .logo__text {
-    margin-top: 3rem;
-    font-size: 4rem;
-    letter-spacing: 2.2rem;
-  }
-  .nav__container .menu__links {
-    margin-top: 9rem;
+    font-size: 6rem;
+    letter-spacing: 2.5rem;
   }
   .nav__container .menu__links .menu__link {
     font-size: 4.5rem;
@@ -111,16 +101,13 @@
 
 @media screen and (max-width: 499px) {
   .nav__container .nav__logo .logo__link .logo__text {
-    font-size: 3.5rem;
-    letter-spacing: 1.9rem;
-  }
-  .nav__container .menu__links {
-    margin-top: 9rem;
+    font-size: 4vw;
+    letter-spacing: 2.5vw;
   }
   .nav__container .menu__links .menu__link {
-    font-size: 4.5rem;
-    letter-spacing: 0.4rem;
-    margin-bottom: 2rem;
+    font-size: 4.5vw;
+    letter-spacing: 0.5vw;
+    margin-bottom: 1.8vw;
   }
 }
 /*# sourceMappingURL=nav.styles.css.map */

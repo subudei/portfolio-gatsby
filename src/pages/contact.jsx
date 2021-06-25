@@ -22,18 +22,23 @@ function Contact() {
     tlContact.to(".contact__message__span", {
       letterSpacing: "1.3rem",
       duration: 1.5,
-      // repeatDelay: 3,
-      // repeat: -1,
-      // ease: "power4.easeIn",
     })
-    tlContact.from(".contact__icon__g", {
-      opacity: 0,
-      duration: 0.3,
-    })
-    tlContact.from(".contact__icon__l", {
-      opacity: 0,
-      duration: 0.3,
-    })
+    tlContact.from(
+      ".contact__icon__g",
+      {
+        opacity: 0,
+        duration: 0.3,
+      },
+      "-=1"
+    )
+    tlContact.from(
+      ".contact__icon__l",
+      {
+        opacity: 0,
+        duration: 0.3,
+      },
+      "-=0.5"
+    )
     tlContact.from(".contact__mobile", {
       opacity: 0,
       duration: 0.3,
