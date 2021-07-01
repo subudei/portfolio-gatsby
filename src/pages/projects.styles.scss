@@ -324,6 +324,9 @@ $detailColor: #ff3e55;
         width: 57vw;
         height: auto;
         left: -2.4vw;
+        .pr__image {
+          height: max-content;
+        }
       }
 
       .project__description__1 {
@@ -455,41 +458,115 @@ $detailColor: #ff3e55;
 @media screen and (max-width: 500px) {
   .projects__container {
     .project__container {
+      margin-bottom: 40px;
+      height: 160px;
       .project__1__img {
-        width: 75%;
+        width: 65vw;
         height: auto;
       }
       .project__description__1 {
         width: 65vw;
         height: 160px;
-        height: 33vw;
+
+        .pd__title {
+          font-size: 12px;
+        }
+        .pd__description {
+          font-size: 10px;
+        }
+        .pd__icons {
+          margin-top: 4vw;
+          .pd__icon {
+            font-size: 12px;
+          }
+        }
+        .pd__techniques {
+          margin-top: 4vw;
+          .pd__techniqe {
+            font-size: 8px;
+          }
+        }
       }
       .project__2__img {
-        width: 75%;
+        width: 65vw;
         height: auto;
       }
       .project__description__2 {
         width: 65vw;
         height: 160px;
-        height: 33vw;
+
+        .pd__title {
+          font-size: 12px;
+        }
+        .pd__description {
+          font-size: 10px;
+        }
+        .pd__icons {
+          margin-top: 4vw;
+          .pd__icon {
+            font-size: 12px;
+          }
+        }
+        .pd__techniques {
+          margin-top: 4vw;
+          .pd__techniqe {
+            font-size: 8px;
+          }
+        }
       }
       .project__3__img {
-        width: 75%;
+        width: 65vw;
         height: auto;
       }
       .project__description__3 {
         width: 65vw;
         height: 160px;
-        height: 33vw;
+
+        .pd__title {
+          font-size: 12px;
+        }
+        .pd__description {
+          font-size: 10px;
+        }
+        .pd__icons {
+          margin-top: 4vw;
+          .pd__icon {
+            font-size: 12px;
+          }
+        }
+        .pd__techniques {
+          margin-top: 4vw;
+          .pd__techniqe {
+            font-size: 8px;
+          }
+        }
       }
       .project__4__img {
-        width: 75%;
+        width: 65vw;
         height: auto;
       }
       .project__description__4 {
         width: 65vw;
         height: 160px;
-        height: 33vw;
+
+        .pd__title {
+          font-size: 12px;
+        }
+        .pd__description {
+          font-size: 10px;
+        }
+        .pd__icons {
+          margin-top: 4vw;
+          .pd__icon {
+            font-size: 12px;
+          }
+        }
+        .pd__techniques {
+          margin-top: 4vw;
+          .pd__techniqe {
+            font-size: 8px;
+          }
+        }
       }
     }
   }

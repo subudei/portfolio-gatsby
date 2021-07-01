@@ -404,6 +404,11 @@
     height: auto;
     left: -2.4vw;
   }
+  .projects__container .project__container .project__1__img .pr__image {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
   .projects__container .project__container .project__description__1 {
     width: 50vw;
     height: 30vw;
@@ -522,41 +527,113 @@
 }
 
 @media screen and (max-width: 500px) {
+  .projects__container .project__container {
+    margin-bottom: 40px;
+    height: 160px;
+  }
   .projects__container .project__container .project__1__img {
-    width: 75%;
+    width: 65vw;
     height: auto;
   }
   .projects__container .project__container .project__description__1 {
     width: 65vw;
     height: 160px;
-    height: 33vw;
+  }
+  .projects__container .project__container .project__description__1 .pd__title {
+    font-size: 12px;
+  }
+  .projects__container .project__container .project__description__1 .pd__description {
+    font-size: 10px;
+  }
+  .projects__container .project__container .project__description__1 .pd__icons {
+    margin-top: 4vw;
+  }
+  .projects__container .project__container .project__description__1 .pd__icons .pd__icon {
+    font-size: 12px;
+  }
+  .projects__container .project__container .project__description__1 .pd__techniques {
+    margin-top: 4vw;
+  }
+  .projects__container .project__container .project__description__1 .pd__techniques .pd__techniqe {
+    font-size: 8px;
   }
   .projects__container .project__container .project__2__img {
-    width: 75%;
+    width: 65vw;
     height: auto;
   }
   .projects__container .project__container .project__description__2 {
     width: 65vw;
     height: 160px;
-    height: 33vw;
+  }
+  .projects__container .project__container .project__description__2 .pd__title {
+    font-size: 12px;
+  }
+  .projects__container .project__container .project__description__2 .pd__description {
+    font-size: 10px;
+  }
+  .projects__container .project__container .project__description__2 .pd__icons {
+    margin-top: 4vw;
+  }
+  .projects__container .project__container .project__description__2 .pd__icons .pd__icon {
+    font-size: 12px;
+  }
+  .projects__container .project__container .project__description__2 .pd__techniques {
+    margin-top: 4vw;
+  }
+  .projects__container .project__container .project__description__2 .pd__techniques .pd__techniqe {
+    font-size: 8px;
   }
   .projects__container .project__container .project__3__img {
-    width: 75%;
+    width: 65vw;
     height: auto;
   }
   .projects__container .project__container .project__description__3 {
     width: 65vw;
     height: 160px;
-    height: 33vw;
+  }
+  .projects__container .project__container .project__description__3 .pd__title {
+    font-size: 12px;
+  }
+  .projects__container .project__container .project__description__3 .pd__description {
+    font-size: 10px;
+  }
+  .projects__container .project__container .project__description__3 .pd__icons {
+    margin-top: 4vw;
+  }
+  .projects__container .project__container .project__description__3 .pd__icons .pd__icon {
+    font-size: 12px;
+  }
+  .projects__container .project__container .project__description__3 .pd__techniques {
+    margin-top: 4vw;
+  }
+  .projects__container .project__container .project__description__3 .pd__techniques .pd__techniqe {
+    font-size: 8px;
   }
   .projects__container .project__container .project__4__img {
-    width: 75%;
+    width: 65vw;
     height: auto;
   }
   .projects__container .project__container .project__description__4 {
     width: 65vw;
     height: 160px;
-    height: 33vw;
+  }
+  .projects__container .project__container .project__description__4 .pd__title {
+    font-size: 12px;
+  }
+  .projects__container .project__container .project__description__4 .pd__description {
+    font-size: 10px;
+  }
+  .projects__container .project__container .project__description__4 .pd__icons {
+    margin-top: 4vw;
+  }
+  .projects__container .project__container .project__description__4 .pd__icons .pd__icon {
+    font-size: 12px;
+  }
+  .projects__container .project__container .project__description__4 .pd__techniques {
+    margin-top: 4vw;
+  }
+  .projects__container .project__container .project__description__4 .pd__techniques .pd__techniqe {
+    font-size: 8px;
   }
 }
 /*# sourceMappingURL=projects.styles.css.map */

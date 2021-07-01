@@ -186,7 +186,7 @@ function Projects() {
           </div>
           <div className="pd__techniques">
             <h4 className="pd__techniqe">React.JS</h4>
-            <h4 className="pd__techniqe">Context API</h4>
+
             <h4 className="pd__techniqe">Firebase</h4>
             <h4 className="pd__techniqe">CSS</h4>
           </div>
@@ -234,8 +234,6 @@ function Projects() {
             <h4 className="pd__techniqe">React.JS</h4>
             <h4 className="pd__techniqe">Redux</h4>
             <h4 className="pd__techniqe">Firebase</h4>
-            <h4 className="pd__techniqe">SASS</h4>
-            <h4 className="pd__techniqe">Stripe</h4>
           </div>
         </div>
       </div>
@@ -278,7 +276,6 @@ function Projects() {
             </a>
           </div>
           <div className="pd__techniques">
-            <h4 className="pd__techniqe">React.JS</h4>
             <h4 className="pd__techniqe">Gatsby</h4>
             <h4 className="pd__techniqe">SASS</h4>
             <h4 className="pd__techniqe">GSAP</h4>
